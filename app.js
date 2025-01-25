@@ -69,6 +69,7 @@ button.addEventListener("click", async (evt) => {
   // console.log(data)
 });
 arrow.addEventListener("click", (evt)=>{
+  amount.value = 1;
   let temp_var = fromCurr.value;
   fromCurr.value = toCurr.value;
   toCurr.value = temp_var;
